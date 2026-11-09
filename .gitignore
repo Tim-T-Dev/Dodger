@@ -1,0 +1,18 @@
+# Build output
+build/
+bin/
+obj/
+
+# Executables & dynamic libraries
+*.exe
+*.dll
+!resources/SFML-2.6.1/bin/*.dll
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+Thumbs.db
+.DS_Store
